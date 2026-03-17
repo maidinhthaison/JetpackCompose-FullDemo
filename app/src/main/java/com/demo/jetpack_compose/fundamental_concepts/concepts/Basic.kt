@@ -1,4 +1,4 @@
-package com.demo.jetpack_compose.fundamental_concepts
+package com.demo.jetpack_compose.fundamental_concepts.concepts
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
