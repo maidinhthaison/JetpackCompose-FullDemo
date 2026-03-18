@@ -83,7 +83,9 @@ fun PasswordTextField() {
             keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Password),
             label = {
                 Text(text = "Enter your password")
-            }
+            },
+            maxLines = 1,
+            singleLine = true
         )
     }
 }
