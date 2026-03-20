@@ -8,7 +8,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
-import com.demo.jetpack_compose.fundamental_concepts.concepts.Greeting
+import com.demo.jetpack_compose.fundamental_concepts.bottombar.BottomNavigation
 import com.demo.jetpack_compose.ui.theme.MyApplicationTheme
 
 class MainActivity : ComponentActivity() {
@@ -21,10 +21,11 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    Greeting()
+                    BottomNavigation()
                 }
 
             }
         }
+
     }
 }
