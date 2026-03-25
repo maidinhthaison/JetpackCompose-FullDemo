@@ -14,6 +14,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Button
 import androidx.compose.material3.Card
+import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
@@ -94,7 +95,7 @@ fun DialogWithImage(onDismiss: () -> Unit){
                 modifier = Modifier.fillMaxWidth(),
                 horizontalArrangement = Arrangement.Center
             ) {
-                TextButton(
+                OutlinedButton(
                     onClick = {
                         Toast.makeText(context,"You can do something here",
                             Toast.LENGTH_SHORT).show()
@@ -105,7 +106,7 @@ fun DialogWithImage(onDismiss: () -> Unit){
                     Text("Confirm")
                 }
 
-                TextButton(
+                OutlinedButton(
                     onClick = {
                         Toast.makeText(context,"Cancel", Toast.LENGTH_SHORT).show()
                         onDismiss() // Close the dialog
